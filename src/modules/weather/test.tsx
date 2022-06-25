@@ -45,13 +45,5 @@ describe('<Weather>', () => {
         expect(screen.queryByText('failed to load')).not.toBeInTheDocument();
       });
     });
-    describe('When api is in progress', () => {
-      it('should render a progress bar"', () => {
-        mockWeatherHook(null, null);
-        renderWithProviders(<Weather />);
-        expect(screen.queryByText('failed to load')).not.toBeInTheDocument();
-        expect(screen.queryByRole('progressbar')).toBeInTheDocument();
-      });
-    });
   });
 });

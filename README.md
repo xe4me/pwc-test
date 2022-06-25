@@ -32,6 +32,7 @@ I've also audited this in Chrome and have received 100% coverage on accessibilit
 
 ### 1- Api utilities
 For this very simple application, I decided to use `SWR` library, which gives me a nice set of react hooks and it uses the default browser `fetch` for all the api calls.
+`SWR` also, nicely integrates with React Suspense, which I have use in this project. ( Checkout Weather component)
 For larger application, obviously there needs to be put a little more thought into this.
 I also didn't implement a state management like Redux, since I thought it's overkill. 
 My favourite redux library these days is Epic and RTKQuery.

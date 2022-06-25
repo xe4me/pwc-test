@@ -12,7 +12,7 @@ exports[`<WeatherWeek> Snapshot and accessibility should match with the snapshot
         <h4
           class="MuiTypography-root MuiTypography-subtitle1 css-1isisa7-MuiTypography-root"
         >
-          Today
+          Saturday
         </h4>
         <img
           alt="Few clouds"

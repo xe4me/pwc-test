@@ -4,36 +4,28 @@ exports[`<Weather> Snapshot and accessibility should match with the snapshot 1`]
 <body>
   <div>
     <div
-      class="MuiContainer-root MuiContainer-maxWidthLg css-5vas6m-MuiContainer-root"
+      class="css-1reuysi"
     >
-      <div
-        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-3su884-MuiPaper-root"
+      <span
+        aria-label="Weather data is loading ..."
+        class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorSecondary css-1szo49z-MuiCircularProgress-root"
+        role="progressbar"
+        style="width: 40px; height: 40px;"
       >
-        <div
-          class="css-1reuysi"
+        <svg
+          class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+          viewBox="22 22 44 44"
         >
-          <span
-            aria-label="Weather data is loading ..."
-            class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorSecondary css-1szo49z-MuiCircularProgress-root"
-            role="progressbar"
-            style="width: 40px; height: 40px;"
-          >
-            <svg
-              class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
-              viewBox="22 22 44 44"
-            >
-              <circle
-                class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
-                cx="44"
-                cy="44"
-                fill="none"
-                r="20.2"
-                stroke-width="3.6"
-              />
-            </svg>
-          </span>
-        </div>
-      </div>
+          <circle
+            class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+            cx="44"
+            cy="44"
+            fill="none"
+            r="20.2"
+            stroke-width="3.6"
+          />
+        </svg>
+      </span>
     </div>
   </div>
 </body>

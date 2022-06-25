@@ -15,7 +15,7 @@ export const useCurrentWeatherData = ({
       `/forecast/daily?city=${city}&country=australia&state=nsw&days=7&units=${unit}`
     ),
     fetcher,
-    {}
+      { suspense: true }
   );
   return { data, error };
 };
