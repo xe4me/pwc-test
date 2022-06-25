@@ -30,23 +30,23 @@ I've also audited this in Chrome and have received 100% coverage on accessibilit
 
 ##Other considerations
 
-###1- Api utilities
+### 1- Api utilities
 For this very simple application, I decided to use `SWR` library, which gives me a nice set of react hooks and it uses the default browser `fetch` for all the api calls.
 For larger application, obviously there needs to be put a little more thought into this.
 I also didn't implement a state management like Redux, since I thought it's overkill. 
 My favourite redux library these days is Epic and RTKQuery.
 
-###2- Styling
+### 2- Styling
 As you've seen, I've used React Material Components, which comes fully tested and has a decent accessibility coverage.
 This means, I didn't use SASS or similar and instead for any custom styling, I used `styled` from MUI, which is a css in js technology.
 There are some caveats to CSS in JS, in general, so more thought needs to be put in before making a enterprise level decision of the styling library and methos.
 
-###3- Environment variables
+### 3- Environment variables
 I put all the variables inside a `.env` for now and committed it so you can easily test the app.
 However, these variables should ideally be located as part of a pipeline, like Github actions, AWS, Azure, etc.
 
-###4- Files structure : 
-I have devided all the components into Modules and Components.
+### 4- Files structure : 
+I have divided all the components into Modules and Components.
 A module is essentially a miro-frontend , which can be separated into its own package.
 A module does the work of fetching, storing and updating the data and state.
 
