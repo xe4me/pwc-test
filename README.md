@@ -64,4 +64,5 @@ Similar to the modules, all these components also can be shared using a package.
 #### 2- Having a mock/stub library to enable for faster development and testing, MSW is my favourite https://mswjs.io/
 #### 3- Enabling PWA
 #### 4- Improving in style reality, through mixins etc
+#### 5- Add Storybook for the reusable components and modules
 
