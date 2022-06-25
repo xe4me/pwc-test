@@ -46,7 +46,7 @@ There are some caveats to CSS in JS, in general, so more thought needs to be put
 I put all the variables inside a `.env` for now and committed it so you can easily test the app.
 However, these variables should ideally be located as part of a pipeline, like Github actions, AWS, Azure, etc.
 
-### 4- Files structure : 
+### 4- Files structure 
 I have divided all the components into Modules and Components.
 A module is essentially a miro-frontend , which can be separated into its own package.
 A module does the work of fetching, storing and updating the data and state.
