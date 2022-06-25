@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WeatherDay> Snapshot and accessibility should match with the snapshot 1`] = `
+<body>
+  <div>
+    <h4
+      class="MuiTypography-root MuiTypography-subtitle1 css-1isisa7-MuiTypography-root"
+    >
+      Today
+    </h4>
+  </div>
+</body>
+`;

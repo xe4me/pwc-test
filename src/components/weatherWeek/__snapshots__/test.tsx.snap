@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WeatherWeek> Snapshot and accessibility should match with the snapshot 1`] = `
+<body>
+  <div>
+    <div
+      class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-true css-fy6j78-MuiGrid-root"
+      >
+        <h4
+          class="MuiTypography-root MuiTypography-subtitle1 css-1isisa7-MuiTypography-root"
+        >
+          Today
+        </h4>
+        <img
+          alt="Few clouds"
+          class="css-g8qt4o"
+          src="https://www.weatherbit.io/static/img/icons/c02d.png"
+        />
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <div
+                  class="css-1t3828c"
+                >
+                  <h4
+                    class="MuiTypography-root MuiTypography-h6 css-1a0934u-MuiTypography-root"
+                  >
+                    <span>
+                      20.2
+                    </span>
+                    <span
+                      class="css-wu6n3n"
+                    >
+                      ○
+                    </span>
+                  </h4>
+                   
+                  <h4
+                    class="MuiTypography-root MuiTypography-h6 css-1wepp2i-MuiTypography-root"
+                  >
+                    <span>
+                      9.3
+                    </span>
+                    <span
+                      class="css-wu6n3n"
+                    >
+                      ○
+                    </span>
+                  </h4>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h4
+                  class="MuiTypography-root MuiTypography-subtitle2 css-1nttt8y-MuiTypography-root"
+                >
+                  <div
+                    class="css-1t3828c"
+                  >
+                    <span>
+                      Pollen
+                    </span>
+                    <span>
+                      14.9
+                    </span>
+                  </div>
+                </h4>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+`;

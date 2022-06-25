@@ -1,0 +1,38 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:json/recommended",
+    "airbnb",
+    "airbnb-typescript",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["react", "@typescript-eslint", "jsx-a11y", "pathnames"],
+  "rules": {
+    "json/*": ["error", { "allowComments": true }],
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": "off",
+    "import/extensions": "off",
+    "import/prefer-default-export": "off",
+    "quotes": ["error", "single"]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx", ".css"]
+      }
+    }
+  }
+}

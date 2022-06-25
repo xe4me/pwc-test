@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WeatherHeader> Snapshot and accessibility should match with the snapshot 1`] = `
+<body>
+  <div>
+    <h2
+      class="MuiTypography-root MuiTypography-h2 MuiTypography-gutterBottom css-qvi7wk-MuiTypography-root"
+    >
+      Sydney
+    </h2>
+    <h3
+      class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1dcqdis-MuiTypography-root"
+    >
+      Saturday, June 25th
+    </h3>
+    <h3
+      class="MuiTypography-root MuiTypography-h6 MuiTypography-gutterBottom css-1dcqdis-MuiTypography-root"
+    >
+      Overcast
+    </h3>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 css-a5rdam-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-6 css-1lxbjw-MuiGrid-root"
+      >
+        <img
+          alt="Today's weather image"
+          class="css-g8qt4o"
+          src="https://www.weatherbit.io/static/img/icons/c02d.png"
+        />
+        <div
+          class="css-1yp4ln"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-h2 MuiTypography-gutterBottom css-7j95bm-MuiTypography-root"
+          >
+            14.9
+          </span>
+          <span
+            class="MuiTypography-root MuiTypography-h5 css-fru0ub-MuiTypography-root"
+          >
+            ℃
+          </span>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 css-1osj8n2-MuiGrid-root"
+      >
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <span
+                  class="MuiTypography-root MuiTypography-h5 css-fru0ub-MuiTypography-root"
+                >
+                  Precipitation:
+                   
+                </span>
+                <span
+                  class="MuiTypography-root MuiTypography-h5 css-11zemyq-MuiTypography-root"
+                >
+                  0
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span
+                  class="MuiTypography-root MuiTypography-h5 css-fru0ub-MuiTypography-root"
+                >
+                  Humidity:
+                   
+                </span>
+                <span
+                  class="MuiTypography-root MuiTypography-h5 css-11zemyq-MuiTypography-root"
+                >
+                  5.9
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span
+                  class="MuiTypography-root MuiTypography-h5 css-fru0ub-MuiTypography-root"
+                >
+                  Wind:
+                   
+                </span>
+                <span
+                  class="MuiTypography-root MuiTypography-h5 css-11zemyq-MuiTypography-root"
+                >
+                  3.1
+                   kph 
+                  W
+                </span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span
+                  class="MuiTypography-root MuiTypography-h5 css-fru0ub-MuiTypography-root"
+                >
+                  Pollen Count:
+                   
+                </span>
+                <span
+                  class="MuiTypography-root MuiTypography-h5 css-11zemyq-MuiTypography-root"
+                >
+                  14.9
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+`;
